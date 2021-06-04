@@ -91,7 +91,7 @@ footer{
     margin: 0px 300px;
 }
 #back-rec div{
-    height: 3600px;
+    height: 3800px;
     width:50px;
     background: rgba(248, 246, 246, 0.671);
 }
@@ -273,4 +273,30 @@ footer{
     transform: rotate(225deg);
     margin: 0px 0px 4px 15px;
 
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info div img{
+    margin-left: 40px ;
+}
+.contact-info div p{
+    display: flex;
+    justify-content: center;
+}
+.soc-contact{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left:400px;
+    margin-right:400px;
+}
+.first-img{
+    margin-left: 60px !important;
 }
